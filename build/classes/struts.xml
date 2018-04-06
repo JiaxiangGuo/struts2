@@ -16,6 +16,7 @@
 			<result name="success">/suc.jsp</result>
 		</action>
 		<action name="demo3" class="com.struts2.action.Demo3Action"></action>
+		<action name="register" class="com.struts2.action.RegisterAction" method="register"></action>
     </package>
 
 
