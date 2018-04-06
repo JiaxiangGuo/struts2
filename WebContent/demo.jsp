@@ -11,6 +11,7 @@
 <h3>快速入门</h3>
 
 <a href="${ pageContext.request.contextPath }/hello.action">快速入门按钮</a>
+<a href="${ pageContext.request.contextPath }/demo1.action">POJO类</a>
 
 </body>
 </html>

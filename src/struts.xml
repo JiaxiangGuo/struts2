@@ -11,6 +11,11 @@
 		<!-- 配置跳转页面 -->
 			<result name="suc">/suc.jsp</result>
 		</action>
+		<action name="demo1" class="com.struts2.action.Demo1Action"></action>
+		<action name="demo2" class="com.struts2.action.Demo2Action">
+			<result name="success">/suc.jsp</result>
+		</action>
+		<action name="demo3" class="com.struts2.action.Demo3Action"></action>
     </package>
 
 
