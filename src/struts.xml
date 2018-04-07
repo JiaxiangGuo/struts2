@@ -17,6 +17,9 @@
 		</action>
 		<action name="demo3" class="com.struts2.action.Demo3Action"></action>
 		<action name="register" class="com.struts2.action.RegisterAction" method="register"></action>
+    	<action name="demo4_*" class="com.struts2.action.Demo4Action" method="{1}"></action>
+   		<action name="demo5" class="com.struts2.action.Demo5Action"></action>
+   		<action name="demo6" class="com.struts2.action.Demo6Action"></action>
     </package>
 
 

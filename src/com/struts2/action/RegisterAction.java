@@ -11,7 +11,7 @@ import org.apache.struts2.ServletActionContext;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 /*
- * 使用原生servlet方法
+ * 使用原生servlet方法 
  */
 public class RegisterAction extends ActionSupport {
 	public String register(){
