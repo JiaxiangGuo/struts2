@@ -20,6 +20,12 @@
     	<action name="demo4_*" class="com.struts2.action.Demo4Action" method="{1}"></action>
    		<action name="demo5" class="com.struts2.action.Demo5Action"></action>
    		<action name="demo6" class="com.struts2.action.Demo6Action"></action>
+   		<!-- 获取值栈对象 -->
+		<action name="vs1" class="com.itheima.demo2.ValueStack1Action"/>
+		<!-- 压栈和取值 -->
+		<action name="save" class="com.itheima.demo2.ValueStack1Action" method="save">
+		<result name="success">/vs.jsp</result>
+		</action>
     </package>
 
 
